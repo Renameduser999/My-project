@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Блокнот</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="fixed-container"> 
+            <div class="list">Список дел
+            <div class="list-empty">Список пуст...</div>
+    </div>
+        <div class="add-case">Добавить новое дело
+            <div class="white-window">
+                <div class="name">
+                <form>
+                    <label for="name"><span>* Название</span></label>
+                    <input id="name" type="text" class="name-form" required>
+                
+                    <label for="description"><span>* Описание</span></label>
+                    <textarea id="description" class="description-form" required></textarea>
+                    <button type="submit" class="button">Добавить дело</button>
+                </form>
+                </div>         
+            </div>
+        </div>
+    </div>    
+</body>
